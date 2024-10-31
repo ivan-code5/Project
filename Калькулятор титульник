@@ -10,9 +10,9 @@
       <c><h1>Агрономический калькулятор</h1><c>
       <nav>
 <div> 
-        <div class="textcols">
-	<div class="textcols-item">
-		<a href="https://s0.rbk.ru/v6_top_pics/media/img/4/03/754705715381034.jpg"><img src="https://s0.rbk.ru/v6_top_pics/media/img/4/03/754705715381034.jpg" alt="Пшеница">
+        <nav class="main-nav"
+           <a class='logo' href='#'>
+		<img src="https://s0.rbk.ru/v6_top_pics/media/img/4/03/754705715381034.jpg" width='100' height='40' alt="Пшеница">
 		...
 	</div>
 	<div class="textcols-item">
@@ -23,10 +23,10 @@
 		<b><button type="button"> Информация </button></b>
 		...
     <div class="textcols-item">
-	    <b><"button">Помощь</button></b>
+	    <b><button>Помощь</button></b>
 	</div>
     <div class="textcols-item">
-	    <b><"button">Вход(Регистрация)</button></b>
+	    <b><button>Вход(Регистрация)</button></b>
 	</div>
 </div>
        </nav>
@@ -36,7 +36,7 @@
         <section>
           <div class="textcols">
 	<div class="textcols-item">
-        <b><"button">Вопросы</button><b>
+        <b><button>Вопросы</button><b>
         <div class="textcols">
 	<div class="textcols-item">
         <b><"button">Количество осадков за прошлый год</button><b>
@@ -73,18 +73,15 @@
         <b><"button">Способ обработки почвы</button>
         <div class="textcols">
 	<div class="textcols-item">
-    <b>Площадь<b>
     <form>
+    <b>Площадь<b>
         <input type="text">
     </form>
-        <b><"button">Расчёт<"button"><b>      
+        <b><button>Расчёт<button><b>      
       </article>
         <section>
     <div class="textcols-item">
-        <b><"button">Почвенная карта</button>
-        <div class="textcols">
-	<div class="textcols-item">
-        <b><"button">Расчёт<"button"><b>
+        <b><button>Почвенная карта</button>
         </section>
     </main>
     <footer>
