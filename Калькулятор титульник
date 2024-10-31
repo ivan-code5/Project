@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>Внешний стиль</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <c><h1>Агрономический калькулятор</h1><c>
+      <nav>
+<div> 
+        <div class="textcols">
+	<div class="textcols-item">
+		<a href="https://s0.rbk.ru/v6_top_pics/media/img/4/03/754705715381034.jpg"><img src="https://s0.rbk.ru/v6_top_pics/media/img/4/03/754705715381034.jpg" alt="Пшеница">
+		...
+	</div>
+	<div class="textcols-item">
+		<b><button type="button"> Инструкция </button></b>
+		...
+	</div>
+	<div class="textcols-item">
+		<b><button type="button"> Информация </button></b>
+		...
+    <div class="textcols-item">
+	    <b><"button">Помощь</button></b>
+	</div>
+    <div class="textcols-item">
+	    <b><"button">Вход(Регистрация)</button></b>
+	</div>
+</div>
+       </nav>
+    </header>
+    <main>
+      <article>
+        <section>
+          <div class="textcols">
+	<div class="textcols-item">
+        <b><"button">Вопросы</button><b>
+        <div class="textcols">
+	<div class="textcols-item">
+        <b><"button">Количество осадков за прошлый год</button><b>
+        <div class="textcols">
+	<div class="textcols-item">
+        <b><"button">Средняя температура</button><b>
+        <div class="textcols">
+	<div class="textcols-item">
+        <b>Регион: Марий Эл<b>
+        </section>
+        <section>
+          <div class="textcols">
+	<div class="textcols-item">
+        <b><"button">Предыдущая культура</button>
+        <div class="textcols">
+	<div class="textcols-item">
+        <b><"button">Структура почвы</button>
+        <div class="textcols">
+	<div class="textcols-item">
+        <b><"button">Тип почвы</button>
+        <div class="textcols">
+	<div class="textcols-item">
+        <b><"button">Использованные удобрения</button>
+        </section>
+        <section>
+          <div class="textcols">
+	<div class="textcols-item">
+        <b><"button">Нынешняя культура</button>
+        <div class="textcols">
+	<div class="textcols-item">
+        <b><"button">Гибрид</button>
+        <div class="textcols">
+	<div class="textcols-item">
+        <b><"button">Способ обработки почвы</button>
+        <div class="textcols">
+	<div class="textcols-item">
+    <b>Площадь<b>
+    <form>
+        <input type="text">
+    </form>
+        <b><"button">Расчёт<"button"><b>      
+      </article>
+        <section>
+    <div class="textcols-item">
+        <b><"button">Почвенная карта</button>
+        <div class="textcols">
+	<div class="textcols-item">
+        <b><"button">Расчёт<"button"><b>
+        </section>
+    </main>
+    <footer>
+      <p> Йошкар-Ола, 2025
+        <a href="https://soil-db.ru/">Интерактивная карта почв</a>
+    </footer>
+  </body>
+</html>

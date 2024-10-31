@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>Внешний стиль</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <header>
+     <c>Вывод</c>
+  </header>
+  <body>
+    <article>
+        <section>
+    <b>Вывод расчётов</b>
+    <output></output>
+    </section>
+    <section>
+        <b>Расчёт при недостатке влаги</b>
+        <output></output>
+        </section>
+        <section>
+            <b>Расчёт при избытке влаги</b>
+            <output></output>
+            </section>    
+</article>
+  </body>
+</html>
