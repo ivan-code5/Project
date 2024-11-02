@@ -5,88 +5,127 @@
     <title>Внешний стиль</title>
     <link rel="stylesheet" href="styles.css">
   </head>
-  <body>
+  
+<body>
+  <style>
+  body {
+    background-image: https://imgtest.mir24.tv/uploaded/images/crops/2023/May/870x489_0x42_detail_crop_20230521173004_353a393f_f93c51bdca2d2f6920e5dc78f1505979ff0448d2bfaf7477965ad809f2fd6690.jpg('background.jpg')
+    background-repeat: no-repeat
+    background-size: cover
+  }
+  </style>
     <header>
       <c><h1>Агрономический калькулятор</h1><c>
       <nav>
-<div> 
+  <div> 
         <nav class="main-nav"
            <a class='logo' href='#'>
 		<img src="https://s0.rbk.ru/v6_top_pics/media/img/4/03/754705715381034.jpg" width='100' height='40' alt="Пшеница">
 		...
 	</div>
-	<div class="textcols-item">
-		<b><button type="button"> Инструкция </button></b>
+	<div class="container">
+		<div class="left">
+		<button type="button"> Инструкция </button>
 		...
 	</div>
-	<div class="textcols-item">
-		<b><button type="button"> Информация </button></b>
+	<div class="container">
+		<div class="left">
+		<button type="button"> Информация </button>
 		...
-    <div class="textcols-item">
-	    <b><button>Помощь</button></b>
 	</div>
-    <div class="textcols-item">
-	    <b><button>Вход(Регистрация)</button></b>
+    <div class="container">
+	    <div class="right">
+	    <button>Вход(Регистрация)</button>
 	</div>
-</div>
+  </div>
        </nav>
     </header>
     <main>
       <article>
-        <section>
-          <div class="textcols">
-	<div class="textcols-item">
-        <b><button>Вопросы</button><b>
-        <div class="textcols">
-	<div class="textcols-item">
-        <b><"button">Количество осадков за прошлый год</button><b>
-        <div class="textcols">
-	<div class="textcols-item">
-        <b><"button">Средняя температура</button><b>
-        <div class="textcols">
-	<div class="textcols-item">
-        <b>Регион: Марий Эл<b>
-        </section>
-        <section>
-          <div class="textcols">
-	<div class="textcols-item">
-        <b><"button">Предыдущая культура</button>
-        <div class="textcols">
-	<div class="textcols-item">
-        <b><"button">Структура почвы</button>
-        <div class="textcols">
-	<div class="textcols-item">
-        <b><"button">Тип почвы</button>
-        <div class="textcols">
-	<div class="textcols-item">
-        <b><"button">Использованные удобрения</button>
-        </section>
-        <section>
-          <div class="textcols">
-	<div class="textcols-item">
-        <b><"button">Нынешняя культура</button>
-        <div class="textcols">
-	<div class="textcols-item">
-        <b><"button">Гибрид</button>
-        <div class="textcols">
-	<div class="textcols-item">
-        <b><"button">Способ обработки почвы</button>
-        <div class="textcols">
-	<div class="textcols-item">
-    <form>
-    <b>Площадь<b>
-        <input type="text">
-    </form>
-        <b><button>Расчёт<button><b>      
-      </article>
-        <section>
-    <div class="textcols-item">
-        <b><button>Почвенная карта</button>
-        </section>
+       <div class="container">
+		<div class="left">
+		<c>Вопрос<c>
+                <section>
+                <b>Количество осадков за прошлый год<b>
+                <button type="button">Меньше годовой нормы</button>
+                <button type="button">Годовая норма</button>
+                <button type="button">Больше годовой нормы</button>
+                </section>
+                ...
+                <section>
+                <b>Количество осадков за прошлый год<b>
+                <button type="button">Меньше годовой нормы</button>
+                <button type="button">Годовая норма</button>
+                <button type="button">Больше годовой нормы</button>
+                </section>
+                <section>
+                <b>Регион<b>
+                <b>Марий Эл<b>
+                </section>
+        <div class="container">
+		<div class="centre">  
+                <section>
+                <b>Предыдущая культура<b>
+                <button type="button">Бобовые</button>
+                <button type="button">Озимые</button>
+                <button type="button">Пропашные</button>
+                <button type="button">Бобовые травы</button>
+                <button type="button">Многолетние травы</button>
+                <button type="button">Чистый пар</button>
+                </section>
+                <section>
+                <b>Структура почвы<b>
+                <button type="button">Крупнокомковатая</button>
+                <button type="button">Зернистая</button>
+                <button type="button">Мелкокомковатая</button>
+                <button type="button">Пылеватая</button>
+                </section>
+                <section>
+                <b>Тип почвы<b>
+                <button type="button">Глинистые</button>
+                <button type="button">Суглинистые</button>
+                <button type="button">Песчаные</button>
+                <button type="button">Супесчаные</button>
+                <button type="button">Известковая</button>
+                <button type="button">Торфяная</button>
+                <button type="button">Заливные</button>
+                </section>
+                <section>
+                <b>Использованные удобрения<b>
+                <button type="button">Органические</button>
+                <button type="button">Минеральные</button>
+                <button type="button">Органо-минеральные</button>
+                </section>
+        <div class="container">
+		<div class="right">      
+                <section>
+                <b>Нынешняя культура<b>
+                <button type="button">Бобовые</button>
+                <button type="button">Озимые</button>
+                <button type="button">Пропашные</button>
+                <button type="button">Бобовые травы</button>
+                <button type="button">Многолетние травы</button>
+                <button type="button">Чистый пар</button>с
+                </section>
+                <section>
+                <b>Гибрид<b>
+                <button type="button">Гибрид</button>
+                <button type="button">Не гибрид</button>
+                </section>
+                <section>
+                <b>Способ обработки почвы<b>
+                <button type="button">Основной</button>
+                <button type="button">Нулевой</button>
+                <button type="button">Минимальный</button>
+                <button type="button">Линейный</button>
+                </section>
+                <section>
+                <b>Площадь<b>
+                <input type="text">
+                </section>
     </main>
     <footer>
+      <a href="https://soil-db.ru/">Интерактивная карта почв</a>
       <p> Йошкар-Ола, 2025
-        <a href="https://soil-db.ru/">Интерактивная карта почв</a>
-    </footer>
-  </body>
-</html>
+      </body>
+      </html>
