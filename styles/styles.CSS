@@ -41,3 +41,23 @@ b {
     border: none;
     border-radius: 6px;
 }
+ .conteiner {
+     width: 1100;
+     height: 800;
+     margin: 0;
+}
+ . left {
+      float: left;
+      width: 366;
+      height: 600;
+}
+. centre {
+      float: centre;
+      width: 366;
+      height: 600;
+. right {
+      float: right;
+      width: 366;
+      height: 600;
+
+ 
