@@ -1,6 +1,6 @@
 p {
     font-family: 'Arial', 'Verdana', sans-serif;
-    font-size: large;
+    font-size: xx-large;
 }
 .one {
     line-height: normal;
@@ -10,7 +10,7 @@ p {
 }
 b {
     font-family: 'Times New Roman', serif;
-    font-size: large;
+    font-size: x-large;
   }
   .one {
     line-height: normal;
@@ -20,7 +20,7 @@ b {
   }
   c {
     font-family: 'Times New Roman', serif;
-    font-size: large;
+    font-size: x-large;
   }
   .one {
     line-height: normal;
@@ -42,22 +42,22 @@ b {
     border-radius: 6px;
 }
  .conteiner {
-     width: 1100;
-     height: 800;
+     width: 1800;
+     height: 1100;
      margin: 0;
 }
  . left {
       float: left;
-      width: 366;
+      width: 600;
       height: 600;
 }
 . centre {
       float: centre;
-      width: 366;
+      width: 600;
       height: 600;
 . right {
       float: right;
-      width: 366;
+      width: 600;
       height: 600;
 
  
