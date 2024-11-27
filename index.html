@@ -7,37 +7,32 @@
   </head>
 <body>
 <header class="header">
-		<img src="images/crop.jpg" width='360' height='200' alt="crop">
-		<h1><a>Агрономический калькулятор<a></h1>		
+		<img class="header__logo" src="images/crop.jpg" width='360' height='200' alt="crop">
+		<h1><a class="header__tittle">Агрономический калькулятор</a></h1>		
         <div class="header__menu">
 		<button class="header menu button"><b>Инструкция</b></button>
 	</div>
 </header>
 <main class="main">
-      <article>
        <div class="main__container">
-		<div class="left">
-		<c>Вопрос<c>
-                <section>
+                <section class="main__container__section">
                 <h2>Количество осадков за прошлый год<h2> 
                 <button class="main__button"><b>Меньше годовой нормы<b></button> <br>
                 <button class="main__button"><b>Годовая норма<b></button> <br>
                 <button class="main__button"><b>Больше годовой нормы<b></button> <br>
                 </section>
-                <section>
-                <h2>Количество осадков за прошлый год<h2>
+                <section class="main__container__section">
+                <a class="main__tittle">Количество осадков за прошлый год</a>
                 <button class="main__button"><b>Меньше годовой нормы<b></button> <br>
                 <button class="main__button"><b>Годовая норма<b></button> <br>
                 <button class="main__button"><b>Больше годовой нормы<b></button> <br>
                 </section>
-                <section>
-                <h2>Регион<h2> 
-                <p>Марий Эл<p> <br>
+                <section class="main__container__section">
+                <a class="main__tittle>Регион</a> 
+                <a class="main__button">Марий Эл</a> <br>
                 </section>
-        <div class="main__container">
-		<div class="centre">  
-                <section>
-                <h2>Предыдущая культура<h2> <
+                <section class="main__container__section">
+                <a class="main__tittle">Предыдущая культура</a> 
                 <button class="main__button"><b>Бобовые<b></button> <br>
                 <button class="main__button"><b>Озимые<b></button> <br>
                 <button class="main__button"><b>Пропашные<b></button> <br>
@@ -45,15 +40,15 @@
                 <button class="main__button"><b>Многолетние травы<b></button> <br>
                 <button class="main__button"><b>Чистый пар<b></button> <br>
                 </section>
-                <section>
-                <h2>Структура почвы<h2> 
+                <section class="main__container__section">
+                <a class="main__tittle">Структура почвы</a> 
                 <button class="main__button"><b>Крупнокомковатая</button> <br>
                 <button class="main__button"><b>Зернистая</button> <br>
                 <button class="main__button"><b>Мелкокомковатая</button> <br>
                 <button class="main__button"><b>Пылеватая</button> <br>
                 </section>
-                <section>
-                <h2>Тип почвы<h2> 
+                <section class="main__container__section">
+                <a class="main__tittle">Тип почвы</a> 
                 <button class="main__button"><b>Глинистые<b></button> <br>
                 <button class="main__button"><b>Суглинистые<b></button> <br>
                 <button class="main__button"><b>Песчаные<b></button> <br>
@@ -62,16 +57,14 @@
                 <button class="main__button"><b>Торфяная<b></button> <br>
                 <button class="main__button"><b>Заливные<b></button> <br>
                 </section>
-                <section>
-                <b>Использованные удобрения<b> 
+                <section class="main__container__section">
+                <a class="main__tittle">Использованные удобрения</a> 
                 <button class="button button--primary"><b>Органические<b></button> <br>
                 <button class="button button--primary"><b>Минеральные<b></button> <br>
                 <button class="button button--primary"><b>Органо-минеральные<b></button> <br>
-                </section>
-        <div class="main__container">
-		<div class="right">      
-                <section>
-                <b>Нынешняя культура<b> 
+                </section>    
+                <section class="main__container__section">
+                <a class="main__tittle">Нынешняя культура</a> 
                 <button class="main__button"><b>Бобовые<b></button> <br>
                 <button class="main__button"><b>Озимые<b></button> <br>
                 <button class="main__button"><b>Пропашные<b></button> <br>
@@ -79,25 +72,25 @@
                 <button class="main__button"><b>Многолетние травы<b></button> <br>
                 <button class="main__button"><b>Чистый пар<b></button> <br>
                 </section>
-                <section>
-                <b>Гибрид<b> 
+                <section class="main__container__section">
+                <a class="main__tittle">Гибрид</a> 
                 <button class="main__button"><b>Гибрид<b></button> <br>
                 <button class="main__button"><b>Не гибрид<b></button> <br>
                 </section>
-                <section>
-                <b>Способ обработки почвы<b> 
+                <section  class="main__container__section">
+                <a class="main__tittle">Способ обработки почвы</a> 
                 <button class="main__button"><b>Основной<b></button> <br>
                 <button class="main__button"><b>Нулевой<b></button> <br>
                 <button class="main__button"><b>Минимальный<b></button> <br>
                 <button class="main__button"><b>Линейный<b></button> <br>
                 </section>
-                <section>
-                <b>Площадь<b> 
+                <section class="main__container__section">
+                <a class="main__tittle">Площадь</a> 
                 <input class="text">
                 </section>
     </main>
     <footer class="footer">
       <a href="https://soil-db.ru/">Интерактивная карта почв</a>
-      <p> Йошкар-Ола, 2025 <p>
+      <a class="footer__tittle">Йошкар-Ола, 2025</a>
       </body>
       </html>
