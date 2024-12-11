@@ -18,7 +18,7 @@
   .two {
     line-height: normal;
   }
-   .main{
+   .main-cantainer{
     font-family: 'Times New Roman', serif;
     font-size: x-large;
   }
@@ -71,18 +71,5 @@ background-color: grey;
      height: 1100;
      margin: 0;
 }
- . left {
-      float: left;
-      width: 600;
-      height: 600;
-}
-. centre {
-      float: centre;
-      width: 600;
-      height: 600;
-. right {
-      float: right;
-      width: 600;
-      height: 600;
 
  
