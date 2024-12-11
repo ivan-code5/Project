@@ -8,7 +8,7 @@
 .two {
   line-height: normal;
 }
-b {
+.main-tittle {
     font-family: 'Times New Roman', serif;
     font-size: x-large;
   }
@@ -18,7 +18,7 @@ b {
   .two {
     line-height: normal;
   }
-  c {
+   {
     font-family: 'Times New Roman', serif;
     font-size: x-large;
   }
@@ -28,7 +28,7 @@ b {
   .two {
     line-height: normal;
   }
-  .styled-button {
+  .main-button {
     background-color: #d4f1d5;
     color: rgb(0, 0, 0);
     padding: 15px 40px;
@@ -40,7 +40,14 @@ b {
     cursor: pointer;
     border: none;
     border-radius: 6px;
+    input:focus {
+border-color: blue;
 }
+    button:active {
+background-color: grey;
+}
+}
+
  .conteiner {
      width: 1800;
      height: 1100;
