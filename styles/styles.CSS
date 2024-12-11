@@ -1,4 +1,5 @@
 @import "fonts.css";
+
 .header-tittle {
     font-family:  'Montserrat', sans-serif;
     font-size: xx-large;
@@ -19,7 +20,19 @@
   .two {
     line-height: normal;
   }
-   .main-cantainer{
+
+.footer-tittle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+  }
+  .one {
+    line-height: normal;
+  }
+  .two {
+    line-height: normal;
+  }
+
+.main-container{
     font-family:  'Montserrat', sans-serif;
     font-size: x-large;
   }
@@ -29,7 +42,9 @@
   .two {
     line-height: normal;
   }
-  .main-button {
+  
+ 
+.main-button {
     background-color: #d4f1d5;
     color: rgb(0, 0, 0);
     padding: 15px 40px;
@@ -48,6 +63,7 @@ border-color: blue;
 background-color: grey;
 }
 }
+
 .header-button {
     background-color: #d4f1d5;
     color: rgb(0, 0, 0);
