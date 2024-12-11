@@ -18,7 +18,7 @@
   .two {
     line-height: normal;
   }
-   {
+   .main{
     font-family: 'Times New Roman', serif;
     font-size: x-large;
   }
@@ -47,7 +47,25 @@ border-color: blue;
 background-color: grey;
 }
 }
-
+.header-button {
+    background-color: #d4f1d5;
+    color: rgb(0, 0, 0);
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: small;
+    margin: 12px 4px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    input:focus {
+border-color: blue;
+}
+    button:active {
+background-color: grey;
+}
+}
  .conteiner {
      width: 1800;
      height: 1100;
