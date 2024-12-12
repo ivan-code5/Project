@@ -71,7 +71,7 @@
     border: none;
     border-radius: 6px;
 }
- .conteiner {
+ .grid-conteiner {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
    grid-template-rows: auto auto auto;
