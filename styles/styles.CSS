@@ -56,12 +56,6 @@
     cursor: pointer;
     border: none;
     border-radius: 6px;
-    input:focus {
-border-color: blue;
-}
-    button:active {
-background-color: grey;
-}
 }
 
 .header-button {
@@ -76,12 +70,6 @@ background-color: grey;
     cursor: pointer;
     border: none;
     border-radius: 6px;
-    input:focus {
-border-color: blue;
-}
-    button:active {
-background-color: grey;
-}
 }
  .conteiner {
      width: 1800;
