@@ -3,6 +3,9 @@
 .header-tittle {
     font-family:  'Montserrat', sans-serif;
     font-size: xx-large;
+    font-weight: normal;
+    font-style: normal;
+    line-height: normal;
 }
 .one {
     line-height: normal;
@@ -13,6 +16,9 @@
 .main-tittle {
     font-family: 'Montserrat', sans-serif;
     font-size: x-large;
+    font-weight: normal;
+    font-style: normal;
+    line-height: normal;
   }
   .one {
     line-height: normal;
@@ -24,6 +30,9 @@
 .footer-tittle {
     font-family: 'Montserrat', sans-serif;
     font-size: x-large;
+    font-weight: normal;
+    font-style: normal;
+    line-height: normal;
   }
   .one {
     line-height: normal;
@@ -35,6 +44,9 @@
 .main-container{
     font-family:  'Montserrat', sans-serif;
     font-size: x-large;
+    font-weight: normal;
+    font-style: normal;
+    line-height: normal;
   }
   .one {
     line-height: normal;
