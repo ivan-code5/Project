@@ -1,1 +1,8 @@
-
+ .main_conteiner {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: auto auto auto;
+   row-gap: 20px;
+   column-gap: 40px;
+   justify-content: center;
+}
