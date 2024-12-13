@@ -1,8 +1,14 @@
-. footer {
+. footer__container {
 background_color #98FB98;
 }
 .footer__container {
-    display: flex;
+display: flex; 
+flex-direction: column; 
+min-height: 100vh; 
+}
+.footer {
+  margin-top: auto;
     align-items: center;
     justify-content: space-between;
     gap: 30px;
+}
