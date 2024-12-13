@@ -1,5 +1,5 @@
  .main_conteiner {
-   bacrround-color: #98FB98;
+   backround-color: #98FB98;
    display: grid;
    grid-template-columns: repeat(3, 1fr);
    grid-template-rows: 50px;
