@@ -1,5 +1,13 @@
 .main-tittle, footer-tittle {
 margin: 50px;
 font-family: Montserrat, sans-serif;
-font-
+font-size: normal;
+font-weight: normal;
+}
+
+.header-tittle {
+margin: 100px;
+font-family: Montserrat, sans-serif;
+font-size: large;
+font-weight: normal;
 }
