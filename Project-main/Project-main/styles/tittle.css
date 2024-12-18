@@ -1,0 +1,17 @@
+.main-tittle, .footer-tittle {
+margin: 50px;
+font-family: Montserrat, sans-serif;
+font-size: normal;
+font-weight: normal;
+margin: 40px;
+color:black;
+}
+
+.header-tittle {
+margin: 100px;
+font-family: Montserrat, sans-serif;
+font-size: large;
+font-weight: normal;
+margin: 40px;
+color:black;
+}
