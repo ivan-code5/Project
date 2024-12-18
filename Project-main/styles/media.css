@@ -1,0 +1,35 @@
+@media (max-width: 768px) {
+    .body {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 1024px) {
+    .body {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+}  
+
+@media print and (orientation: portrait) {
+    .body {
+      font-size: 14pt;
+    }
+  }
+
+@media screen and (orientation: portrait) {
+    .body {
+      font-size: 24pt;
+    }
+  }
+
+@media (overflow-inline: scroll) {
+    .body {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    } 
+}

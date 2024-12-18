@@ -1,0 +1,16 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: rgb(51, 214, 160);
+    left: 0;
+    right: 0;
+
+    display: grid;
+    grid-template-columns: 300px 500px 100px;
+    grid-template-rows: auto;
+    align-items: center;
+    column-gap: 80px;
+    width: 100%;
+    padding: 40px 120px;
+}
