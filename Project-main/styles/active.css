@@ -1,8 +1,0 @@
-.button {
-    transition-property: color;
-    transition: all 2s easy-out;
-}
-
-.button {
-    transform: translateX(40px);
-}
