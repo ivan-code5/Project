@@ -1,0 +1,11 @@
+.main {
+    width: auto;
+    border: none;
+    background-color: aliceblue;
+    border-color: aquamarine;
+    margin: 30px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

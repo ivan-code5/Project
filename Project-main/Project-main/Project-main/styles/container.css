@@ -1,0 +1,20 @@
+ .main_conteiner {
+   background-color: #fefffe;
+   display: flex;
+   width: 330px;
+   flex-direction: column;
+   flex-wrap: wrap;
+
+   row-gap: 80px;
+   column-gap: 40px;
+   justify-content: center;
+   margin: 50 px;
+   border: 10 px;
+   border-color: none;
+}
+
+.form__conteiner {
+  display: flex; 
+  flex-direction: column;
+  flex-wrap: wrap;
+}
