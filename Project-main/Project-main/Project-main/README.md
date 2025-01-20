@@ -16,7 +16,7 @@
 10. Сформирован и создан эскиз.
 11. Сформирован и заполнен файл README.
 12. Завершена регистрация в Figma.
-13. Фигма 
+13. Фигма https://www.figma.com/design/DXGnbNovGj1TwDtylOPJvi/Untitled?node-id=0-1&p=f&t=gyiseabBO6EEKnYl-0
 14. Создан макет.
 15. Создана структура веб-сайта в Visual Studio Code.
 16. Сохранены изображения в папке images.
