@@ -1,0 +1,65 @@
+.main__button {
+    background-color: #c8ebc9;
+    color: #000700;
+    height: 100px;
+    width: 300px;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: large;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    border-color: blue;
+}
+
+.header__button {
+    background-color: #c8ebc9;
+    color: #000700;
+    height: 70px;
+    width: 400px;
+    padding: 20px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: normal;
+    margin: 6px;
+    margin-top: 5px;
+    cursor: pointer;
+    border-color: blue;
+    border-radius: 6px;
+}
+ 
+.section__button {
+    background-color: #ccc;
+    height: 100px;
+    width: auto;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: x-large;
+    margin: 30px;
+    border-color: blue;
+    border-radius: 6px;
+    cursor: not-allowed;
+}
+
+.header__button:hover {
+    border-color: #07c007;
+    background-color: aquamarine;
+    }
+
+.header__button:active {
+    background-color: #07c007;
+}
+
+.main__button:hover {
+    border-color: #07c007;
+    background-color: aquamarine;
+    }
+
+.main__button:active {
+    background-color: #07c007;
+}
