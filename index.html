@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Агрономический калькулятор</title>
+  <link rel="stylesheet" href="styles/styles.CSS">
+</head>
+
+<body>
+  <header class="header conteiner">
+    <nav class="header__nav">
+      <ul class="header__list">
+        <li class="header__item"><a href="https://soil-db.ru/map" class="header__item-link">Карта</a></li>
+        <li class="header__item"><a href="instruction.html" class="header__item-link">Инструкция</a></li>
+        <li class="header__item"><a href="cart.html" class="header__item-link">Отзывы</a></li>
+      </ul>
+    </nav>
+    <img class="header__logo" src="images/crop.jpg" width="360" height="200" alt="crop">
+    <a class="header__tittle">
+      <h1>Агрономический калькулятор</h1>
+    </a>
+  </header>
+  <main class="main">
+    <div class="main conteiner">
+      <a class="main__tittle">Выберите подходящие варианты:</a>
+      <section class="main__section">
+        <a class="section__tittle"><h2>Количество осадков за прошлый год:</h2></a>
+        <a class="section__tittle">Меньше годовой нормы</a>
+        <button class="main__button"></button>
+        <a class="section__tittle">;  Средняя годовая норма</a>
+        <button class="main__button"></button>
+        <a class="section__tittle">;  Больше годовой нормы</a>
+        <button class="main__button"></button>
+        <a class="section__tittle">;  Суховеи (изменчивый климат)</a>
+        <button class="main__button"></button>       
+        <img class="main__logo" src="images/rain.jpg" width="360" height="200" alt="rain">
+      </section>
+      <section class="main__section">
+        <a class="section__tittle"><h2>Регион:</h2></a>
+        <button class="section__button">Республика Марий Эл</button>
+        <img class="main__logo" src="images/mariflag.jpg" width="360" height="200" alt="crop">
+      </section>
+      <section class="main__section">
+        <a class="section__tittle"><h2>Предыдущая культура:</h2></a>
+        <a class="section__tittle">Бобовые</a>
+        <button class="main__button"></button>
+        <a class="section__tittle">; Озимые</a>
+        <button class="main__button"></button>
+        <a class="section__tittle">; Пропашные</a>
+        <button class="main__button"></button>
+        <a class="section__tittle">; Бобовые травы</a>
+        <button class="main__button"></button>
+        <a class="section__tittle">; Многолетние травы</a>
+        <button class="main__button"></button>
+        <a class="section__tittle">; Чистый пар</a>
+        <button class="main__button"></button>
+        <img class="main__logo" src="images/culture.jpg" width="360" height="200" alt="culture">
+      </section>
+      <section class="main__section">
+        <a class="section__tittle"><h2>Структура почвы:</h2></a>
+        <a class="section__tittle">Крупнокомковатая</a>
+        <button class="main__button"></button>
+        <a class="section__tittle">;  Зернистая</a>
+        <button class="main__button"></button>
+        <a class="section__tittle">;  Мелкокомковатая</a>
+        <button class="main__button"></button>
+        <img class="main__logo" src="images/humus.jpg" width="360" height="200" alt="soil">
+      </section>
+      <section class="main__section">
+        <a class="section__tittle"><h2>Тип почвы:</h2></a>
+        <a class="section__tittle">  Глинистые</a>
+        <button class="main__button"></button>
+        <a class="section__tittle">;  Суглинистые</a>
+        <button class="main__button"></button>
+        <a class="section__tittle">;  Песчаные</a>
+        <button class="main__button"></button>
+        <a class="section__tittle">;  Супесчаные</a>
+        <button class="main__button"></button>
+        <a class="section__tittle">;  Известковые</a>
+        <button class="main__button"></button>
+        <a class="section__tittle">;  Торфяные</a>
+        <button class="main__button"></button>
+        <a class="section__tittle">;  Заливные</a>
+        <button class="main__button"></button>
+        <img class="main__logo" src="images/soil.jpg" width="360" height="200" alt="structure">
+      </section>
+      <section class="main__section">
+        <a class="section__tittle"><h2>Использованные удобрения:</h2></a>
+        <a class="section__tittle">  Органические</a>
+        <button class="main__button"></button>
+        <a class="section__tittle">;  Минеральные</a>
+        <button class="main__button"></button>
+        <a class="section__tittle">;  Органо-минеральные</a>
+        <button class="main__button"></button>
+        <img class="main__logo" src="images/mineral.jpeg" width="360" height="200" alt="minerals">
+      </section>
+      <section class="main__section">
+        <a class="section__tittle"><h2>Нынешняя культура:</h2></a>
+        <a class="section__tittle">  Бобовые</a>
+        <button class="main__button"></button>
+        <a class="section__tittle">;  Озимые</a>
+        <button class="main__button"></button>
+        <a class="section__tittle">;  Пропашные</a>
+        <button class="main__button"></button>
+        <a class="section__tittle">;  Бобовые травы</a>
+        <button class="main__button"></button>
+        <a class="section__tittle">;  Многолетние травы</a>
+        <button class="main__button"></button>
+        <a class="section__tittle">;  Чистый пар</a>
+        <button class="main__button"></button>
+        <img class="main__logo" src="images/culturenow.jpg" width="360" height="200" alt="culture">
+      </section>
+      <section class="main__section">
+        <a class="section__tittle"><h2>Гибрид:</h2></a>
+        <a class="section__tittle">  Гибрид</a>
+        <button class="main__button"></button>
+        <a class="section__tittle">;  Не гибрид</a>
+        <button class="main__button"></button>
+        <img class="main__logo" src="images/hibrid.webp" width="360" height="200" alt="plant">
+      </section>
+      <section class="main__section">
+        <a class="section__tittle"><h2>Способ обработки почвы:</h2></a>
+        <a class="section__tittle">  Основной</a>
+        <button class="main__button"></button>
+        <a class="section__tittle">;  Нулевой</a>
+        <button class="main__button"></button>
+        <a class="section__tittle">;  Минимальный</a>
+        <button class="main__button"></button>
+        <img class="main__logo" src="images/techno.jpg" width="360" height="200" alt="mechanical">
+      </section>
+      <section class="main__section">
+        <a class="section__tittle"><h2>Площадь,(га):</h2></a>
+        <input type="text">
+      </section>
+      <button class="enter__button">Вывод</button>
+      <button class="delete__button">Удалить выбор</button>
+      <img class="main__logo" src="images/selhoz.jpg" width="360" height="200" alt="field">
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer container">
+      <a class="footer__tittle">Йошкар-Ола, 2025</a>
+    </div>
+  </footer>
+  <script src="scripts/script.js"></script>
+</body>
+
+</html>
