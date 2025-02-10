@@ -6,8 +6,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 document.addEventListener("DOMContentLoaded", () => {
     const posts = [
-      { id: 1, title: "Post 1", excerpt: "Неплохой ресурс" },
-      { id: 2, title: "Post 2", excerpt: "Как агроном я заинтересован" }
+      { id: 1, title: "Отзыв", excerpt: "Неплохой ресурс" },
+      { id: 2, title: "Отзыв", excerpt: "Как агроном я заинтересован" }
     ];
   
     const comments = [];
