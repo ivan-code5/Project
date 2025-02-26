@@ -1,0 +1,18 @@
+.form {
+    margin: 50px;
+    font-family: Montserrat, sans-serif;
+    font-size: large;
+    font-weight: normal;
+    color:black;
+}
+
+.form {
+    border: 1px solid #5c5858;
+    padding: 30px;
+    }
+    form:active {
+    border-color: #007bff;
+    outline: none;
+    }
+   
+
