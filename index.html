@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Агрономический калькулятор</title>
+  <link rel="stylesheet" href="styles/styles.CSS">
+</head>
+
+<body>
+  <header class="header conteiner">
+    <nav class="header__nav">
+      <ul class="header__list">
+        <li class="header__item"><a href="https://soil-db.ru/map" class="header__item-link">Карта</a></li>
+        <li class="header__item"><a href="instruction.html" class="header__item-link">Инструкция</a></li>
+        <li class="header__item"><a href="cart.html" class="header__item-link">Отзывы</a></li>
+      </ul>
+    </nav>
+    <img class="header__logo" src="images/crop.jpg" width="360" height="200" alt="crop">
+    <a class="header__tittle">
+      <h1>Агрономический калькулятор</h1>
+    </a>
+  </header>
+  <main class="main">
+    <div class="main conteiner">
+      <a class="main__tittle">Выберите подходящие варианты:</a>
+      <section class="main__section">
+        <a class="section__tittle"><h2>Количество осадков за прошлый год:</h2></a>
+        <button class="main__button" button onclick="getValue(1.003, 1)">Меньше годовой нормы</button>
+        <button class="main__button" button onclick="getValue(1, 1)">Средняя годовая норма</button>
+        <button class="main__button" button onclick="getValue(1.004, 1)">Больше годовой нормы</button>
+        <button class="main__button" button onclick="getValue(1.002, 1)">Суховеи</button>      
+        <img class="main__logo" src="images/rain.jpg" width="360" height="200" alt="rain">
+      </section>
+      <section class="main__section">
+        <a class="section__tittle"><h2>Регион:</h2></a>
+        <button class="section__button">Республика Марий Эл</button>
+        <img class="main__logo" src="images/mariflag.jpg" width="360" height="200" alt="crop">
+      </section>
+      <section class="main__section">
+        <a class="section__tittle"><h2>Предыдущая культура:</h2></a>
+        <button class="main__button" button onclick="getValue(1.001, 2)" button id="comment1">Бобовые</button>
+        <button class="main__button" button onclick="getValue(1.003, 2)" button id="comment2">Озимые</button>
+        <button class="main__button" button onclick="getValue(1.002, 2)" button id="comment1">Пропашные</button>
+        <button class="main__button" button onclick="getValue(1.001, 2)" button id="comment1">Бобовые травы</button>
+        <button class="main__button" button onclick="getValue(1.003, 2)" button id="comment1">Многолетние травы</button>
+        <button class="main__button" button onclick="getValue(1.018, 2)" button id="comment2">Чистый пар</button>
+        <img class="main__logo" src="images/culture.jpg" width="360" height="200" alt="culture">
+      </section>
+      <section class="main__section">
+        <a class="section__tittle"><h2>Структура почвы:</h2></a>
+        <button class="main__button" button onclick="getValue(1.011, 3)">Крупнокомковатая</button>
+        <button class="main__button" button onclick="getValue(1.013, 3)">Зернистая</button>
+        <button class="main__button" button onclick="getValue(1.001, 3)">Мелкокомковатая</button>
+        <img class="main__logo" src="images/humus.jpg" width="360" height="200" alt="soil">
+      </section>
+      <section class="main__section">
+        <a class="section__tittle"><h2>Тип почвы:</h2></a>
+        <button class="main__button" button onclick="getValue(1.002, 4)">Глинистые</button>
+        <button class="main__button" button onclick="getValue(1.003, 4)">Суглинистые</button>
+        <button class="main__button" button onclick="getValue(1.035, 4)">Песчаные</button>
+        <button class="main__button" button onclick="getValue(1.003, 4)">Супесчаные</button>
+        <button class="main__button" button onclick="getValue(1.011, 4)">Известковые</button>
+        <button class="main__button" button onclick="getValue(1.020, 4)">Торфяные</button>
+        <button class="main__button" button onclick="getValue(1.018, 4)">Заливные</button>
+        <img class="main__logo" src="images/soil.jpg" width="360" height="200" alt="structure">
+      </section>
+      <section class="main__section">
+        <a class="section__tittle"><h2>Использованные удобрения:</h2></a>
+        <button class="main__button" button onclick="getValue(1.023, 5)" button id="comment3">Органические</button>
+        <button class="main__button" button onclick="getValue(1.018, 5)" button id="comment4">Минеральные</button>
+        <button class="main__button" button onclick="getValue(1.011, 5)" button id="comment5">Органо-минеральные</button>
+        <img class="main__logo" src="images/mineral.jpeg" width="360" height="200" alt="minerals">
+      </section>
+      <section class="main__section">
+        <a class="section__tittle"><h2>Нынешняя культура:</h2></a>
+        <button class="main__button" button onclick="getValue(1.001, 6)">Бобовые</button>
+        <button class="main__button" button onclick="getValue(1.003, 6)">Озимые</button>
+        <button class="main__button" button onclick="getValue(1.003, 6)">Пропашные</button>
+        <button class="main__button" button onclick="getValue(1.005, 6)">Бобовые травы</button>
+        <button class="main__button" button onclick="getValue(1.003, 6)">Многолетние травы</button>
+        <button class="main__button" button onclick="getValue(1.001, 6)">Чистый пар</button>
+        <img class="main__logo" src="images/culturenow.jpg" width="360" height="200" alt="culture">
+      </section>
+      <section class="main__section">
+        <a class="section__tittle"><h2>Гибрид:</h2></a>
+        <button class="main__button" button onclick="getValue(1.020, 7)">Гибрид</button>
+        <button class="main__button" button onclick="getValue(1.011, 7)">Не гибрид</button>
+        <img class="main__logo" src="images/hibrid.webp" width="360" height="200" alt="plant">
+      </section>
+      <section class="main__section">
+        <a class="section__tittle"><h2>Способ обработки почвы:</h2></a>
+        <button class="main__button" button onclick="getValue(1.001, 8)">Основной</button>
+        <button class="main__button" button onclick="getValue(1.050, 8)">Нулевой</button>
+        <button class="main__button" button onclick="getValue(1.040, 8)">Минимальный</button>
+        <img class="main__logo" src="images/techno.jpg" width="360" height="200" alt="mechanical">
+      </section>
+      <section class="enter__section">
+        <a class="section__tittle"><h2>Площадь,(га):</h2></a>
+        <input type="text" id="input-id" placeholder="Введите площадь" onblur="getValue(0, 9)">
+        <button class="enter__button" button id="calculate">Вывод</button>
+      </section>
+      <section class="result__section">
+        <a class="section__tittle"><h2>Результаты</h2></a>
+        <output id="result"></output>
+        <div id="comments">
+          <a class="section__tittle"><h2>Рекомендации</h2></a>
+          <ul id="comment-list"></ul>
+        </div>
+      </section>  
+      <section class="main__section"> 
+        <img class="main__logo" src="images/selhoz.jpg" width="360" height="200" alt="field">
+      </section> 
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer container">
+      <button class="delete__button" button id="reset">Удалить данные</button>
+      <a class="footer__tittle">Йошкар-Ола, 2025</a>
+    </div>
+  </footer>
+  <script src="scripts/script1.js"></script>
+</body>
+
+</html>

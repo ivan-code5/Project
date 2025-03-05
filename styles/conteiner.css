@@ -1,0 +1,55 @@
+ .main conteiner {
+   background-color: none;
+   display: flex;
+   width: 1440px;
+   flex-direction: column;
+   flex-wrap: wrap;
+   row-gap: 80px;
+   justify-content:center;
+   margin: 50 px;
+   border: 10 px;
+   border-color: none;
+}
+
+.form conteiner {
+  display: flex; 
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 1440px;
+}
+
+.conteiner {
+  width: 1440px;
+  margin: auto;
+}
+
+.header__conteiner {
+  width: auto;
+}
+
+.blog__conteiner {
+  height: auto;
+  width: 1130px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 70px;
+  margin: 40px;
+  padding: 18px;
+  margin-left: 130px;
+  padding-left: 130px;
+}
+
+.result__conteiner {
+  height: auto;
+  width: 1130px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 70px;
+  margin: 40px;
+  padding: 18px;
+  margin-left: 130px;
+  padding-left: 130px;
+}
+
+.instruction conteiner {
+  margin-left: 130px;
+  padding-left: 130px;
+}
