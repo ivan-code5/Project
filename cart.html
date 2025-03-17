@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Агрономический калькулятор</title>
+  <link rel="stylesheet" href="styles/styles.CSS">
+</head>
+
+<body>
+    <header class="header__conteiner">
+        <nav class="header__nav">
+            <ul class="header__list">
+              <li class="header__item"><a href="index.html" class="header__item-link">Главная</a></li>
+              <li class="header__item"><a href="https://soil-db.ru/map" class="header__item-link">Карта</a></li>
+              <li class="header__item"><a href="instruction.html" class="header__item-link">Инструкция</a></li>
+            </ul>
+          </nav>
+     <a class="header__tittle">
+       <h1>Агрономический калькулятор</h1>
+     </a>
+     <img class="header__logo" src="images/crop.jpg" width="360" height="200" alt="crop">
+    </header>
+    <main class="blog__conteiner">
+         <div id="blog-posts">
+      </div>
+      <div id="comments">
+        <h2>Отзывы</h2>
+        <ul id="comment-list"></ul>
+        <textarea id="comment-input" placeholder="Оставьте отзыв"></textarea>
+        <button onclick="addComment()">Сохранить</button>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer container">
+        <a class="footer__tittle">Йошкар-Ола, 2025</a>
+      </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+
+</body>
+
+</html>
